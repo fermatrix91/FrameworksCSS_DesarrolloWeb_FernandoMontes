@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <!-- Compressed CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css" integrity="sha256-xpOKVlYXzQ3P03j397+jWFZLMBXLES3IiryeClgU5og= sha384-gP4DhqyoT9b1vaikoHi9XQ8If7UNLO73JFOOlQV1RATrA7D0O7TjJZifac6NwPps sha512-AKwIib1E+xDeXe0tCgbc9uSvPwVYl6Awj7xl0FoaPFostZHOuDQ1abnDNCYtxL/HWEnVOMrFyf91TDgLPi9pNg==" crossorigin="anonymous">  
+  <!-- Fontawesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha256-BtbhCIbtfeVWGsqxk1vOHEYXS6qcvQvLMZqjtpWUEx8=" crossorigin="anonymous" />
+  <title>Mi Blog - Fernando Montes - Foundation</title>
+</head>
+<body>
+
+	<div class="grid-container" style="background: rgba(200, 167, 54, 0.5);">
+
+	<header class="grid-x">
+		<div class="cell medium-6 large-3 padding-horizontal-2"><h3><b>Degustando</b></h3><cite class="text-right" style="color: #ccc"><b>Gastronomía Nicaragüense</b></cite></div>
+		<div class="cell medium-6 large-9"></div>		
+	</header>
+	
+	<hr />
+	
+	<style>
+		.deMenu {
+			border: solid 1px pink;
+		}
+		body{
+			background: url("img/background.jpg") fixed;
+		}
+	</style>
+	
+	<aside class="grid-x grid-padding-x grid-container">
+		<div class="cell medium-6 large-3 show-for-medium card">
+		
+			<div class="input-group">			  
+			  <input class="input-group-field" type="text">
+			  <span class="input-group-label"><i class="fas fa-search"></i></span>
+			</div>
+		
+			<ul class="vertical menu align-center">
+			  <li class="deMenu"><a href="#">Inicio</a></li>
+			  <li class="deMenu"><a href="#">Comidas</a></li>
+			  <li class="deMenu"><a href="#">Bebidas</a></li>
+			  <li class="deMenu"><a href="#">Banquetes</a></li>
+			</ul>
+			
+			<h4>Favoritos:</h4>
+			<div class="grid-x grid-padding-x">
+				<div class="cell medium-4 large-4"><img src="img/favorito1.jpg" class="thumbnail"></div>
+				<div class="cell medium-4 large-4"><img src="img/favorito2.jpg" class="thumbnail"></div>
+				<div class="cell medium-4 large-4"><img src="img/favorito3.jpg" class="thumbnail"></div>
+				<div class="cell medium-4 large-4"><img src="img/favorito4.jpg" class="thumbnail"></div>
+				<div class="cell medium-4 large-4"><img src="img/favorito5.png" class="thumbnail"></div>
+				<div class="cell medium-4 large-4"><img src="img/favorito6.png" class="thumbnail"></div>
+			</div>
+			
+			<h4>Historial:</h4>			
+			<ul class="vertical menu align-center">
+			  <li><a href="#">Asados</a></li>
+			  <li><a href="#">Desayunos</a></li>
+			  <li><a href="#">Postres</a></li>
+			  <li><a href="#">Ensaladas</a></li>
+			</ul>			
+		</div>
+		<div class="cell medium-6 large-9">
+			<div class="card">			  			  
+			  <div class="card-section text-center">
+				<h4>Vigorón</h4>
+				<cite>30 de Junio de 2019</cite>
+				<img src="img/favorito1.jpg" class="thumbnail" style="width: 100%">				
+				<p style="text-align: left;">Este plato conserva su origen en la ciudad de Granada, en donde se preparan muy exquisitos. En un plato cubierto por una parte de una hoja de plátano, se colocan yuca cocida, chicharrón y una ensalada de repollo y tomate.</p>
+				<textarea placeholder="Escriba su comentario"></textarea><button class="success button">Publicar</button>
+			  </div>
+			  <div class="card-section text-left">				
+				<div class="media-object stack-for-small">
+					<div class="media-object-section">
+						<img class="thumbnail" src="img/user.png" style="width: 110px;">
+					</div>
+					<div class="media-object-section">
+						<h5>Freddy Ramírez</h5>
+						<p>He probado mucha comida latinoamericana pero la mejor comida que he probado es la nicaragüense. Muchas felicidades.</p>
+					</div>
+				</div>
+				<div class="media-object stack-for-small">
+					<div class="media-object-section">
+						<img class="thumbnail" src="img/user.png" style="width: 110px;">
+					</div>
+					<div class="media-object-section">
+						<h5>Alejandro Espinoza</h5>
+						<p>Estoy de acuerdo con Mike, tiene un sabor único. Sin duda alguna la comida nicaragüense es un sabroso manjar para degustar.</p>
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="card">			  			  
+			  <div class="card-section text-center">				
+				<h4>Gallo pinto</h4>
+				<cite>1 de Julio de 2019</cite>
+				<img src="img/favorito2.jpg" class="thumbnail" style="width: 100%">
+				<p style="text-align: left;">Se come en todas las casas de este país casi a diario y es tomado como símbolo nacional. Se compone de una mezcla de arroz frito con cebolla y chiltoma (conocido como pimiento) y frijoles rojos cocidos con ajo. Se mezclan muy bien y se vuelven a freír en conjunto.</p>
+				<textarea placeholder="Escriba su comentario"></textarea><button class="success button">Publicar</button>
+			  </div>
+			  <div class="card-section text-left">				
+				<div class="media-object stack-for-small">
+					<div class="media-object-section">
+						<img class="thumbnail" src="img/user.png" style="width: 110px;">
+					</div>
+					<div class="media-object-section">
+						<h5>Paul Campero</h5>
+						<p>Me gustaría saber cuál es el secreto del Gallo Pinto. El arroz hace una combinación perfecta con los frijoles, tienen un toque mágico.</p>
+					</div>
+				</div>
+			  </div>
+			</div>
+		</div>		
+	</aside>
+ 
+	</div>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <!-- Compressed JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/js/foundation.min.js" integrity="sha256-/PFxCnsMh+nTuM0k3VJCRch1gwnCfKjaP8rJNq5SoBg= sha384-9ksAFjQjZnpqt6VtpjMjlp2S0qrGbcwF/rvrLUg2vciMhwc1UJJeAAOLuJ96w+Nj sha512-UMSn6RHqqJeJcIfV1eS2tPKCjzaHkU/KqgAnQ7Nzn0mLicFxaVhm9vq7zG5+0LALt15j1ljlg8Fp9PT1VGNmDw==" crossorigin="anonymous"></script>
+  <script>
+      $(document).foundation();
+    </script>
+</body>
+</html>
